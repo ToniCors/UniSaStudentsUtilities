@@ -44,7 +44,7 @@ public class DatabaseGV {
 			ResultSet rs =psAddAnnuncio.getGeneratedKeys();
 			if(rs.next()){
 				lastID = rs.getInt(1);
-				System.out.println("dsadads"+rs.getInt(1));
+				System.out.println("Test: "+rs.getInt(1));
 			}
 			
 			connection.commit();
